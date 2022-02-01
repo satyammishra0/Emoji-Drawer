@@ -211,3 +211,55 @@
     margin-top: 20%;
     border-radius: 10px 10px 0px 0px;
 }
+
+.teethsmile {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    top: 56%;
+    left: 15%;
+    border: 15px solid #222;
+    /* clip-path: circle(50% at 49% 100%); */
+    transform: rotate(180deg);
+    border-radius: 150px 150px 0 0;
+    /* place-items: center; */
+    /* padding: 20% 0; */
+    position: relative;
+}
+
+.teethsmile-bar-1 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    position: relative;
+}
+
+.teethsmile-border {
+    width: 15px;
+    height: 33px;
+    border: 1px solid rgb(61, 61, 61);
+    margin-top: 281%;
+    border-radius: 8px 8px 0 0;
+}
+
+.teethsmile-border-2 {
+    transform: rotate(180deg);
+}
+
+.smile-5-2 {
+    top: 48%;
+    position: absolute;
+    height: 15px;
+    width: 164px;
+    background: #222;
+    margin-bottom: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.teethsmile-bar-2 {
+    position: absolute;
+    bottom: 180%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    position: relative;
+}
