@@ -7,14 +7,14 @@
 .emoji-packet {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 10%;
+    /* padding: 10%; */
 }
 
 .emoji1 {
     margin: 10%;
     height: 300px;
     width: 300px;
-    background-color: #f7c64b;
+    background-color: #ffc83d;
     border-radius: 50%;
     position: relative;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -66,7 +66,7 @@
     margin: 10%;
     height: 300px;
     width: 300px;
-    background-color: #f7c64b;
+    background-color: #ffc83d;
     border-radius: 50%;
     position: relative;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -118,7 +118,7 @@
     margin: 10%;
     height: 300px;
     width: 300px;
-    background-color: #f7c64b;
+    background-color: #ffc83d;
     border-radius: 50%;
     position: relative;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -262,4 +262,38 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     position: relative;
+}
+
+.smile-6 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #222;
+    top: 50%;
+    left: 33%;
+    clip-path: ellipse(35% 40% at 50% 50%);
+    border-radius: 150px 150px 0 0;
+}
+
+.eye9 {
+    position: absolute;
+    left: 25%;
+    width: 30px;
+    height: 10px;
+    display: grid;
+    place-items: center;
+    background-color: transparent;
+}
+
+.eye10 {
+    position: absolute;
+    left: 65%;
+    width: 30px;
+    height: 10px;
+    background-color: transparent;
+}
+
+.fa-heart {
+    font-size: 35px;
+    color: rgb(248, 0, 0);
 }
