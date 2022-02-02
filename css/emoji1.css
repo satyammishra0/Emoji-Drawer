@@ -1,299 +1,354 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.emoji-packet {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* padding: 10%; */
-}
-
-.emoji1 {
-    margin: 10%;
-    height: 300px;
-    width: 300px;
-    background-color: #ffc83d;
-    border-radius: 50%;
-    position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.eyes-column {
-    position: absolute;
-    top: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.eye1 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #222;
-    left: 25%;
-}
-
-.eye2 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #222;
-    left: 60%;
-}
-
-.smile {
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    background-color: #222;
-    top: 56%;
-    left: 15%;
-    /* clip-path: circle(50% at 49% 100%); */
-    transform: rotate(180deg);
-    border-radius: 150px 150px 0 0;
-}
-
-
-/* emoji 2 */
-
-.emoji2 {
-    margin: 10%;
-    height: 300px;
-    width: 300px;
-    background-color: #ffc83d;
-    border-radius: 50%;
-    position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.eyes-column-2 {
-    position: absolute;
-    top: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.eye3 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #222;
-    left: 25%;
-}
-
-.eye4 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #222;
-    left: 60%;
-}
-
-.smile-2 {
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    background-color: #222;
-    top: 50%;
-    left: 15%;
-    clip-path: circle(50% at 49% 100%);
-    /* transform: rotate(180deg); */
-    border-radius: 150px 150px 0 0;
-}
-
-
-/* emoji3 */
-
-.emoji3 {
-    margin: 10%;
-    height: 300px;
-    width: 300px;
-    background-color: #ffc83d;
-    border-radius: 50%;
-    position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.eyes-column-3 {
-    position: absolute;
-    top: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.eye5 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #222;
-    left: 25%;
-}
-
-.eye6 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: #222;
-    left: 60%;
-}
-
-.smile-3 {
-    position: absolute;
-    width: 250px;
-    height: 20px;
-    background-color: #222;
-    top: 70%;
-    left: 8%;
-    clip-path: circle(50% at 49% 100%);
-    /* transform: rotate(180deg); */
-    border-radius: 150px 150px 0 0;
-}
-
-
-/* emoji4 */
-
-.eye7 {
-    position: absolute;
-    left: 25%;
-    width: 30px;
-    height: 10px;
-    background-color: #222;
-}
-
-.eye8 {
-    position: absolute;
-    left: 65%;
-    width: 30px;
-    height: 10px;
-    background-color: #222;
-}
-
-.smile-4 {
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    background-color: #222;
-    top: 70%;
-    left: 16%;
-}
-
-.smile-5 {
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    background-color: #fff;
-    top: 56%;
-    left: 15%;
-    border: 15px solid #222;
-    /* clip-path: circle(50% at 49% 100%); */
-    transform: rotate(180deg);
-    border-radius: 150px 150px 0 0;
-}
-
-.smile-5-1 {
-    height: 15px;
-    width: 164px;
-    background: #222;
-    margin-top: 20%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.teethsmile {
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    background-color: #fff;
-    top: 56%;
-    left: 15%;
-    border: 15px solid #222;
-    /* clip-path: circle(50% at 49% 100%); */
-    transform: rotate(180deg);
-    border-radius: 150px 150px 0 0;
-    /* place-items: center; */
-    /* padding: 20% 0; */
-    position: relative;
-}
-
-.teethsmile-bar-1 {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    position: relative;
-}
-
-.teethsmile-border {
-    width: 15px;
-    height: 33px;
-    border: 1px solid rgb(61, 61, 61);
-    margin-top: 281%;
-    border-radius: 8px 8px 0 0;
-}
-
-.teethsmile-border-2 {
-    transform: rotate(180deg);
-}
-
-.smile-5-2 {
-    top: 48%;
-    position: absolute;
-    height: 15px;
-    width: 164px;
-    background: #222;
-    margin-bottom: 80%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.teethsmile-bar-2 {
-    position: absolute;
-    bottom: 180%;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    position: relative;
-}
-
-.smile-6 {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: #222;
-    top: 50%;
-    left: 33%;
-    clip-path: ellipse(35% 40% at 50% 50%);
-    border-radius: 150px 150px 0 0;
-}
-
-.eye9 {
-    position: absolute;
-    left: 25%;
-    width: 30px;
-    height: 10px;
-    display: grid;
-    place-items: center;
-    background-color: transparent;
-}
-
-.eye10 {
-    position: absolute;
-    left: 65%;
-    width: 30px;
-    height: 10px;
-    background-color: transparent;
-}
-
-.fa-heart {
-    font-size: 35px;
-    color: rgb(248, 0, 0);
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .emoji-packet {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* padding: 10%; */
+    }
+    
+    .emoji1 {
+        margin: 10%;
+        height: 300px;
+        width: 300px;
+        background-color: #ffc83d;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    .eyes-column {
+        position: absolute;
+        top: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .eye1 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #222;
+        left: 25%;
+    }
+    
+    .eye2 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #222;
+        left: 60%;
+    }
+    
+    .smile {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: #222;
+        top: 56%;
+        left: 15%;
+        /* clip-path: circle(50% at 49% 100%); */
+        transform: rotate(180deg);
+        border-radius: 150px 150px 0 0;
+    }
+    /* emoji 2 */
+    
+    .emoji2 {
+        margin: 10%;
+        height: 300px;
+        width: 300px;
+        background-color: #ffc83d;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    .eyes-column-2 {
+        position: absolute;
+        top: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .eye3 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #222;
+        left: 25%;
+    }
+    
+    .eye4 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #222;
+        left: 60%;
+    }
+    
+    .smile-2 {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: #222;
+        top: 50%;
+        left: 15%;
+        clip-path: circle(50% at 49% 100%);
+        /* transform: rotate(180deg); */
+        border-radius: 150px 150px 0 0;
+    }
+    /* emoji3 */
+    
+    .emoji3 {
+        margin: 10%;
+        height: 300px;
+        width: 300px;
+        background-color: #ffc83d;
+        border-radius: 50%;
+        position: relative;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    
+    .eyes-column-3 {
+        position: absolute;
+        top: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .eye5 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #222;
+        left: 25%;
+    }
+    
+    .eye6 {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #222;
+        left: 60%;
+    }
+    
+    .smile-3 {
+        position: absolute;
+        width: 250px;
+        height: 20px;
+        background-color: #222;
+        top: 70%;
+        left: 8%;
+        clip-path: circle(50% at 49% 100%);
+        /* transform: rotate(180deg); */
+        border-radius: 150px 150px 0 0;
+    }
+    /* emoji4 */
+    
+    .eye7 {
+        position: absolute;
+        left: 25%;
+        width: 30px;
+        height: 10px;
+        background-color: #222;
+    }
+    
+    .eye8 {
+        position: absolute;
+        left: 65%;
+        width: 30px;
+        height: 10px;
+        background-color: #222;
+    }
+    
+    .smile-4 {
+        position: absolute;
+        width: 200px;
+        height: 20px;
+        background-color: #222;
+        top: 70%;
+        left: 16%;
+    }
+    
+    .smile-5 {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: #fff;
+        top: 56%;
+        left: 15%;
+        border: 15px solid #222;
+        /* clip-path: circle(50% at 49% 100%); */
+        transform: rotate(180deg);
+        border-radius: 150px 150px 0 0;
+    }
+    
+    .smile-5-1 {
+        height: 15px;
+        width: 164px;
+        background: #222;
+        margin-top: 20%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .teethsmile {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: #fff;
+        top: 56%;
+        left: 15%;
+        border: 15px solid #222;
+        /* clip-path: circle(50% at 49% 100%); */
+        transform: rotate(180deg);
+        border-radius: 150px 150px 0 0;
+        /* place-items: center; */
+        /* padding: 20% 0; */
+        position: relative;
+    }
+    
+    .teethsmile-bar-1 {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        position: relative;
+    }
+    
+    .teethsmile-border {
+        width: 15px;
+        height: 33px;
+        border: 1px solid rgb(61, 61, 61);
+        margin-top: 281%;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    .teethsmile-border-2 {
+        transform: rotate(180deg);
+    }
+    
+    .smile-5-2 {
+        top: 48%;
+        position: absolute;
+        height: 15px;
+        width: 164px;
+        background: #222;
+        margin-bottom: 80%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .teethsmile-bar-2 {
+        position: absolute;
+        bottom: 180%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        position: relative;
+    }
+    
+    .smile-6 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #222;
+        top: 50%;
+        left: 33%;
+        clip-path: ellipse(35% 40% at 50% 50%);
+        border-radius: 150px 150px 0 0;
+    }
+    
+    .eye9 {
+        position: absolute;
+        left: 25%;
+        width: 30px;
+        height: 10px;
+        display: grid;
+        place-items: center;
+        background-color: transparent;
+    }
+    
+    .eye10 {
+        position: absolute;
+        left: 65%;
+        width: 30px;
+        height: 10px;
+        background-color: transparent;
+    }
+    
+    .fa-heart {
+        font-size: 35px;
+        color: rgb(248, 0, 0);
+    }
+    /* poop emoji */
+    
+    .poop-emoji {
+        padding: 30%;
+        display: grid;
+        place-items: center;
+    }
+    
+    .poop-cone {
+        /* position: absolute;
+        top: 50%;
+        left: 50%; */
+        /* transform: translate(-50%, -50%); */
+        height: 100px;
+        width: 100px;
+        box-shadow: -20px 15px 0 20px #913a1c;
+        border-radius: 50%;
+        transform: rotate(280deg);
+        margin-bottom: -20%;
+        margin-right: 40%;
+        /* height: 100px;
+        width: 300px;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 36% 55%);
+        background-color: #913a1c;
+        transform: rotate(70deg);
+        margin-bottom: -10%;
+        margin-left: -10%; */
+        /* border-radius: 40px 40px 20px 20px; */
+    }
+    
+    .poop-4 {
+        width: 100px;
+        height: 50px;
+        border-radius: 40px 40px 20px 20px;
+        background-color: #913a1c;
+        z-index: 0;
+    }
+    
+    .poop-3 {
+        width: 160px;
+        height: 80px;
+        border-radius: 40px 40px 20px 20px;
+        background-color: #913a1c;
+        z-index: 80;
+        overflow: hidden;
+    }
+    
+    .poop-2 {
+        width: 240px;
+        height: 80px;
+        border-radius: 40px 40px 20px 20px;
+        background-color: #913a1c;
+    }
+    
+    .poop-1 {
+        border-radius: 40px;
+        width: 300px;
+        height: 80px;
+        background-color: #913a1c;
+        z-index: 100;
+    }
